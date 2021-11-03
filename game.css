@@ -6,19 +6,26 @@
   height: 160px;
 }
 
+body {
+  width: 1200px;
+  margin: auto; /* this centers the page */
+  margin-top: 50px;
+}
+
 #board {
   position: absolute;
   height: 600px;
   width: 1200px;
   background-color: rgb(6, 136, 119);
-  align-content: center;
-  align-self: center;
+  /* align-content: center;
+  align-self: center; */
 }
 
 #title {
   background-color: rgb(128, 128, 128);
   align-content: center;
   align-self: center;
+  margin-bottom: -20px;
 }
 
 #scores {
