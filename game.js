@@ -8,6 +8,7 @@ function start() {
   bees = new Array();
   //create bees
   makeBees();
+  updateBees();
 }
 
 function Bear() {
