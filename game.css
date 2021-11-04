@@ -3,7 +3,6 @@
   left: 100px;
   width: 100px;
   height: 160px;
- 
 }
 
 body {
@@ -18,7 +17,7 @@ body {
   width: 1200px;
   background-color: rgb(6, 136, 119);
   align-content: center;
-  align-self: center;  
+  align-self: center;
 }
 
 #title {
