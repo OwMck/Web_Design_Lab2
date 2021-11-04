@@ -12,9 +12,13 @@ function start() {
 }
 
 function Bear() {
-  //this.setSpeed();
-  this.dBear = document.getElementById("speedBear").value;
-  //this.dBear = 100;
+  this.setSpeed = function () {
+    const speed = document.getElementById("speedBear").value;
+    this.dBear = parseInt(speed, 10);
+    console.log(speed);
+  };
+
+  this.dBear = 100;
   this.htmlElement = document.getElementById("bear");
   this.id = this.htmlElement.id;
   this.x = this.htmlElement.offsetLeft;
